@@ -156,3 +156,14 @@ addEventListener("resize", (e) => {
         renderBands(bands.length);
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const myLogo = document.querySelector('#myLogo');
+    myLogo.addEventListener('click', () => {
+        window.location.href = "home.html";
+    });
+    const about = document.querySelector('#about');
+    about.addEventListener('click', () => {
+        window.location.href = "about.html";
+    })
+});
