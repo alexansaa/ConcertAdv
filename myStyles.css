@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .generalPadding {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .mainContainer h1 {
+    font-size: 250%;
+    line-height: 39px;
+    padding-bottom: 5%;
+  }
+
+  .myLinks {
+    display: none;
+  }
+
+  .left {
+    display: flex;
+  }
+
+  .myLogo {
+    display: none;
+  }
+
+  .menuHamburgerContainer {
+    display: flex;
+    padding-top: 2%;
+  }
+  .textLinks {
+    display: none;
+  }
+
+  .importantLink {
+    display: none;
+  }
+
+  .main {
+    overflow: hidden;
+  }
+
+  .cardKind {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(83, 78, 78,0.5);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .cardKind p {
+    max-width: 50%;
+  }
+
+  .cardKind h2 {
+    font-size: 20px;
+    width: 25%;
+  }
+
+  .cardKind img {
+    max-width: 10%;
+  }
+
+  .kinds hr {
+    width: 10%;
+    margin-bottom: 8%;
+  }
+
+  .kindsLkn {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .generalPadding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .mainContainer h1 {
+    font-size: 300%;
+    line-height: 45px;
+    padding-bottom: 2%;
+  }
+
+  .myLinks {
+    display: flex;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .myLogo {
+    display: flex;
+  }
+
+  .menuHamburgerContainer {
+    display: none;
+  }
+
+  .menuTextContainer {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(196, 195, 195, 0.5);
+  }
+
+  .textLinks {
+    display: flex;
+  }
+
+  .importantLink {
+    display: flex;
+  }
+
+  .mainContainer p {
+    width: 70%;
+    margin-bottom: 3%;
+  }
+
+  .cardKind {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    width: 25%;
+  }
+
+  .cardKind h2 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .kindsContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cardKind img {
+    max-width: 35%;
+    align-self: center;
+    margin-bottom: 6%;
+  }
+
+  .cardKind p {
+    margin-top: 8%;
+    margin-bottom: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  .kinds hr {
+    width: 5%;
+    margin-bottom: 5%;
+  }
+
+  .kindsBtn {
+    display: none;
+  }
+
+  .bandBtn {
+    display: none;
+  }
+
+  .bandsContainer {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+  }
+
+  .bandKind {
+    flex: 1 0 50%;
+  }
+  
+}
+
+.header {
+  display: block;
+}
+
+.mainBackground {
+  background-image: url("https://img.freepik.com/premium-vector/random-vinyl-records-pattern-music-illustration-creative-luxury-cover_510351-12718.jpg?w=2000");
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(80%) opacity(8%);
+  z-index: -1;
+}
+
+.myLinks {
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(56, 48, 38);
+  max-height: 35px;
+}
+
+.myLinks a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.myLinks a img {
+  max-height: 25px;
+}
+
+#FaceBookIcon {
+  max-height: 15px;
+}
+
+.menuHamburger img {
+  max-height: 45px;
+}
+
+.menuTextContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer img {
+  max-height:45px;
+}
+
+
+.textLinks {
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.textLinks a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.importantLink a {
+  text-decoration: none;
+  border: solid;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: rgb(236, 93, 17);
+}
+
+
+.mainContainer {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.mainContainer h1 {
+  position: relative;
+  z-index: 1;
+  color: transparent;
+  background-image: url("https://previews.123rf.com/images/vectora/vectora1704/vectora170400470/75321963-abstract-art-to-use-as-geometric-patterns-backgrounds-textures-random-irregular-shapes.jpg");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-family: sans-serif;
+  font-weight: 800;
+  
+  
+}
+
+.mainContainer h2 {
+  color: rgb(236, 93, 17);
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: x-large;
+  padding-top: 7%;
+  padding-bottom: 1.5%;
+}
+
+.mainContainer p {
+  background-color: rgb(245, 243, 243);
+  border: 3px solid white;
+  font-family: sans-serif;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  line-height: 27px;
+  color: rgb(92, 91, 91);
+}
+
+.mainContainer h3 {
+  font-family: 'Gothic A1', sans-serif;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+  font-size: 33px;
+  font-weight: 800;
+  color: rgb(92, 91, 91);
+  letter-spacing: 0.5px;
+}
+
+.mainContainer h4 {
+  font-family: sans-serif;
+  color: rgb(156, 152, 152);
+  padding-bottom: 15%;
+}
+
+.kinds {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png");
+  z-index: 1;
+  color: white;
+  padding-top: 9%;
+}
+
+.kinds h1 {
+  font-family: sans-serif;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.kinds hr {
+  border-bottom: 1px solid rgb(255, 83, 20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardKind {
+  font-family: sans-serif;
+  background-color: rgb(83, 78, 78,0.5);
+}
+
+
+
+.cardKind h2 {
+  color: rgb(236, 93, 17);
+  font-family: sans-serif;
+}
+
+.kindsBtn {
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 12%;
+}
+
+.kindsBtn a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(236, 93, 17);
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bands {
+  z-index: 1;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+.bands hr {
+  border-bottom: 1px solid rgb(236, 93, 17);
+  width: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4%;
+}
+
+.bands h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.bandContentContainer {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin-left: 5%;
+  width: 60%; */
+}
+
+.bandContentContainer hr {
+  border-bottom: 1px solid rgb(235, 228, 228);
+  width: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+
+
+.bandKind {
+  display: flex;
+  /* font-family: sans-serif;
+  
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative; */
+}
+
+.bandKind hr {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  width: 10%;
+  margin-bottom: 8%;
+  margin-left: 0;
+}
+
+.bandImgCont {
+  margin-right: 5%;
+}
+
+.bandImgCont img {
+  width: 100%;
+  height: 150px;
+  object-fit: scale-down;
+}
+
+
+
+.bandKind h2 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 27px;
+  width: 25%;
+  padding-bottom: 1.5%;
+}
+
+.bandKind h3 {
+  color: rgb(236, 93, 17);
+  font-size: 15px;
+  font-style: italic;
+  /* word-wrap: wrap; */
+  /* max-width: 60%; */
+}
+
+.bandKind p {
+  width: auto;
+}
+
+.bandBtn {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border: 1px solid rgb(123, 121, 121);
+  margin-bottom: 7%;
+}
+
+.bandBtn a {
+  text-decoration: none;
+  color: rgb(123, 121, 121);
+  font-family: sans-serif;
+  
+}
+
+.down-arrow {
+  color: red;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+.kindsLkn {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 8%;
+}
+
+.kindsLkn a {
+  color: rgb(213, 212, 212);
+  font-family: sans-serif;
+}
+
+.footer1 {
+  background-color: rgb(88, 88, 88);
+}
+
+.footer1 h2 {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.footer1 hr {
+  border-bottom: 1px solid rgb(255, 83, 20);
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  margin-bottom: 3%;
+}
