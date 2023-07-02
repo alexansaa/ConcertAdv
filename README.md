@@ -81,7 +81,7 @@ The design behind the web pages was developed previously by Cindy Shin in Behanc
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://alexansaa.github.io/ConcertAdv/](home.html)
+- [https://alexansaa.github.io/ConcertAdv/](#LiveDemo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +136,6 @@ Deploy this project on any websever
 - GitHub: [@alexansaa](https://github.com/alexansaa)
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -176,5 +175,10 @@ I would like to thank every who continues supporting me.
 ## 📝 License <a name="license"></a>
 
 This project is [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+**Attribution:**
+The design behind the web pages was developed by [Cindy Shin](https://www.behance.net/adagio07) and can be found on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
