@@ -52,7 +52,7 @@
     align-items: center;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: rgb(83, 78, 78,0.5);
+    background-color: #272a31;
     margin-bottom: 10px;
     margin-top: 10px;
   }
@@ -81,6 +81,15 @@
 
   .footer {
     display: none;
+  }
+
+  .textLinks a {
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 
@@ -114,8 +123,12 @@
 
   .menuTextContainer {
     background-color: white;
-    box-shadow: 0px 0px 5px rgba(196, 195, 195, 0.5);
   }
+
+  /* .menuTextContainer a {
+    color: white;
+    font-family: 'Lato', sans-serif;;
+  } */
 
   .textLinks {
     display: flex;
@@ -190,6 +203,18 @@
   .bandKind {
     flex: 1 0 50%;
   }
+
+  .menuTextContainer {
+    display: flex;
+  }
+
+  .textLinks a {
+    text-decoration: none;
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
   
 }
 
@@ -214,7 +239,7 @@
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  background-color: rgb(56, 48, 38);
+  background-color: #272a31;
   max-height: 35px;
 }
 
@@ -240,10 +265,9 @@
 
 .menuTextContainer {
   position: relative;
-  display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -257,14 +281,6 @@
   margin-left: 10%;
 }
 
-.textLinks a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Lato', sans-serif;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
 .importantLink a {
   text-decoration: none;
   border: solid;
@@ -272,7 +288,8 @@
   padding-right: 7px;
   padding-top: 7px;
   padding-bottom: 7px;
-  color: rgb(236, 93, 17);
+  color: #ec5242;
+  white-space: nowrap;
 }
 
 
@@ -296,10 +313,10 @@
 }
 
 .mainContainer h2 {
-  color: rgb(236, 93, 17);
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
-  font-size: x-large;
+  font-weight: 400;
+  font-size: 35px;
   padding-top: 7%;
   padding-bottom: 1.5%;
 }
@@ -313,7 +330,7 @@
   padding-left: 2.5%;
   padding-right: 2.5%;
   line-height: 27px;
-  color: rgb(92, 91, 91);
+  color: #272a31;
 }
 
 .mainContainer h3 {
@@ -322,13 +339,13 @@
   padding-bottom: 2%;
   font-size: 33px;
   font-weight: 800;
-  color: rgb(92, 91, 91);
+  color: #272a31;
   letter-spacing: 0.5px;
 }
 
 .mainContainer h4 {
   font-family: 'Lato', sans-serif;
-  color: rgb(156, 152, 152);
+  color: #d3d3d3;
   padding-bottom: 15%;
 }
 
@@ -342,26 +359,26 @@
 .kinds h1 {
   font-family: 'Lato', sans-serif;
   color: white;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 15px;
 }
 
 .kinds hr {
-  border-bottom: 1px solid rgb(255, 83, 20);
+  border-bottom: 1px solid #ec5242;
   margin-left: auto;
   margin-right: auto;
 }
 
 .cardKind {
   font-family: 'Lato', sans-serif;
-  background-color: rgb(83, 78, 78,0.5);
+  background-color: #272a31;
 }
 
 
 
 .cardKind h2 {
-  color: rgb(236, 93, 17);
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
 }
 
@@ -372,8 +389,8 @@
 }
 
 .kindsBtn a {
-  color: rgb(255, 255, 255);
-  background-color: rgb(236, 93, 17);
+  color: #d3d3d3;
+  background-color: #ec5242;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   padding-top: 5%;
@@ -389,7 +406,7 @@
 }
 
 .bands hr {
-  border-bottom: 1px solid rgb(236, 93, 17);
+  border-bottom: 1px solid #ec5242;
   width: 10%;
   margin-right: auto;
   margin-left: auto;
@@ -398,13 +415,13 @@
 
 .bands h1 {
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 15px;
 }
 
 .bandContentContainer hr {
-  border-bottom: 1px solid rgb(235, 228, 228);
+  border-bottom: 1px solid #d3d3d3;
   width: 10%;
   margin-right: auto;
   margin-left: auto;
@@ -418,7 +435,7 @@
 }
 
 .bandKind hr {
-  border-bottom: 1px solid rgb(207, 207, 207);
+  border-bottom: 1px solid #d3d3d3;
   width: 10%;
   margin-bottom: 8%;
   margin-left: 0;
@@ -437,7 +454,7 @@
 
 
 .bandKind h2 {
-  color: black;
+  color: #272a31;
   font-family: 'Lato', sans-serif;
   font-size: 27px;
   width: 25%;
@@ -445,7 +462,7 @@
 }
 
 .bandKind h3 {
-  color: rgb(236, 93, 17);
+  color: #ec5242;
   font-size: 15px;
   font-style: italic;
   /* word-wrap: wrap; */
@@ -460,13 +477,13 @@
   text-align: center;
   padding-top: 3%;
   padding-bottom: 3%;
-  border: 1px solid rgb(123, 121, 121);
+  border: 1px solid #d3d3d3;
   margin-bottom: 7%;
 }
 
 .bandBtn a {
   text-decoration: none;
-  color: rgb(123, 121, 121);
+  color: #d3d3d3;
   font-family: 'Lato', sans-serif;
   
 }
@@ -485,12 +502,12 @@
 }
 
 .kindsLkn a {
-  color: rgb(213, 212, 212);
+  color: #d3d3d3;
   font-family: 'Lato', sans-serif;
 }
 
 .footer1 {
-  background-color: rgb(88, 88, 88);
+  background-color: #272a31;
 }
 
 .footer1 h2 {
@@ -499,12 +516,12 @@
   font-size: 30px;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  color: rgb(169, 167, 167);
+  color: #d3d3d3;
   font-weight: 400;
 }
 
 .footer1 hr {
-  border-bottom: 1px solid rgb(255, 83, 20);
+  border-bottom: 1px solid #ec5242;
   margin-left: auto;
   margin-right: auto;
   width: 5%;
@@ -517,7 +534,7 @@
   font-size: 30px;
   padding-bottom: 5%;
   padding-top: 2%;
-  color: rgb(169, 167, 167);
+  color: #d3d3d3;
 }
 
 .partners span {
@@ -554,4 +571,42 @@
 
 .footerSecond p {
   padding-bottom: 3%;
+}
+
+.openable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+.disaperable {
+  display: none;
+  z-index: -10;
+}
+
+.apearable {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 13;
+  margin-bottom: 3%;
+  height: 10%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+}
+
+#home {
+  color: #ec5242;
 }
