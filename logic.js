@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const kindCard = document.createElement('div');
     kindCard.classList.add('cardKind');
     kindCard.classList.add('myFont');
+    kindCard.classList.add('darkerColor');
     const imgCard = document.createElement('img');
     imgCard.src = kind.image;
     const kindName = document.createElement('h2');
@@ -93,6 +94,7 @@ function renderBands(index) {
       const bandCard = document.createElement('div');
       bandCard.classList.add('bandKind');
       bandCard.classList.add('myFont');
+      bandCard.classList.add('darkerColor');
       const imagesContainer = document.createElement('div');
       imagesContainer.classList.add('bandImgCont');
       const imgCard = document.createElement('img');
