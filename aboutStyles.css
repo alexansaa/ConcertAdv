@@ -36,15 +36,11 @@
   }
 
   .mainContainer h1 {
-    font-size: 300%;
     line-height: 39px;
-    padding-bottom: 2%;
-    text-align: center;
   }
 
   .mainContainer h2 {
     color: #ec5242;
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 35px;
     padding-top: 7%;
@@ -117,7 +113,6 @@
   .textLinks a {
     text-decoration: none;
     color: rgb(251, 251, 251);
-    font-family: 'Lato', sans-serif;
     font-size: 45px;
     padding-left: 3%;
     padding-right: 3%;
@@ -172,10 +167,7 @@
   }
 
   .mainContainer h1 {
-    font-size: 300%;
     line-height: 45px;
-    padding-bottom: 2%;
-    text-align: center;
   }
 
   .mainContainer p {
@@ -229,7 +221,6 @@
   .textLinks a {
     text-decoration: none;
     color: #272a31;
-    font-family: 'Lato', sans-serif;
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -345,15 +336,16 @@
   z-index: 1;
   background-size: cover;
   -webkit-background-clip: text;
-  font-family: 'Lato', sans-serif;
   font-weight: 800;
   color: #ec5242;
+  font-size: 300%;
+  padding-bottom: 2%;
+  text-align: center;
 }
 
 .mainContainer p {
   background-color: rgb(245, 243, 243);
   border: 3px solid white;
-  font-family: 'Lato', sans-serif;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 2.5%;
@@ -364,7 +356,6 @@
 }
 
 .mainContainer h3 {
-  font-family: 'Gothic A1', 'Lato', sans-serif;
   padding-top: 2.5%;
   padding-bottom: 2%;
   font-size: 33px;
@@ -374,7 +365,6 @@
 }
 
 .mainContainer h4 {
-  font-family: 'Lato', sans-serif;
   color: #272a31;
   padding-bottom: 1%;
   text-align: center;
@@ -389,13 +379,11 @@
 }
 
 .mainEmailContact h5 {
-  font-family: 'Lato', sans-serif;
   font-size: 15px;
   text-decoration: underline;
 }
 
 .mainEmailContact h6 {
-  font-family: 'Lato', sans-serif;
   font-size: 15px;
   padding-left: 1%;
 }
@@ -409,7 +397,6 @@
   padding-bottom: 2%;
   font-size: 30px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
   color: #d3d3d3;
   font-weight: 400;
 }
@@ -423,7 +410,6 @@
 }
 
 .partners {
-  font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 30px;
   padding-bottom: 5%;
@@ -443,7 +429,6 @@
 }
 
 .footerMain {
-  font-family: Verdana, Geneva, Tahoma, 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 800;
   width: 100%;
@@ -455,7 +440,6 @@
 
 .footerSecond p {
   padding-bottom: 3%;
-  font-family: 'Lato', sans-serif;
 }
 
 .containerBorder {
@@ -487,7 +471,6 @@
 }
 
 .navigator {
-  font-family: 'Lato', sans-serif;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
@@ -570,4 +553,8 @@
 
 #about {
   color: #ec5242;
+}
+
+.myFont {
+  font-family: 'Lato', sans-serif;
 }

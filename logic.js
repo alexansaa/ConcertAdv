@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   kinds.forEach((kind) => {
     const kindCard = document.createElement('div');
     kindCard.classList.add('cardKind');
+    kindCard.classList.add('myFont');
     const imgCard = document.createElement('img');
     imgCard.src = kind.image;
     const kindName = document.createElement('h2');
@@ -46,32 +47,38 @@ const bands = [
   {
     name: 'Band1',
     image: 'https://static.vecteezy.com/system/resources/thumbnails/002/839/653/small/tribal-ethnic-tattoo-icon-illustration-design-logo-free-vector.jpg',
-    description: 'this is a rock band from australia that uses to play funk music. Awsome played as an artists',
-    procedence: 'Originated from Australia, Brisbain',
+    procedence: 'this is a rock band from australia that uses to play funk music. Awsome played as an artists',
+    description: 'Originated from Australia, Brisbain',
   },
   {
     name: 'Band2',
     image: 'https://png.pngtree.com/png-vector/20191018/ourlarge/pngtree-tribal-logo-vector-png-image_1824197.jpg',
-    description: 'this is a rock band from australia that uses to play funk music. Awsome played as an artist',
-    procedence: 'Originated from Australia, Sidney',
+    procedence: 'this is a rock band from australia that uses to play funk music. Awsome played as an artist',
+    description: 'Originated from Australia, Sidney',
   },
   {
     name: 'Band3',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_AM5SZSuSpanvtRO6EEnyxXXjQfAbZnXIw&usqp=CAU',
-    description: 'this is a rock band from United Kindom that uses to play funk music. Awsome played as an artist',
-    procedence: 'Originated from UK, Belfast',
+    procedence: 'this is a rock band from United Kindom that uses to play funk music. Awsome played as an artist',
+    description: 'Originated from UK, Belfast',
   },
   {
     name: 'Band4',
     image: 'https://static.vecteezy.com/system/resources/thumbnails/007/412/788/small/tattoo-maori-design-ethnic-oriental-ornament-art-tribal-tattoo-sketch-logo-of-a-tattoo-maori-style-vector.jpg',
-    description: 'this is a rock band from USA that uses to play funk music. Awsome played as an artist',
-    procedence: 'Originated from USA, California',
+    procedence: 'this is a rock band from USA that uses to play funk music. Awsome played as an artist',
+    description: 'Originated from USA, California',
   },
   {
     name: 'Band5',
     image: 'https://passion-stickers.com/964-large_default/yamaha-logo-tribal.jpg',
-    description: 'this is a rock band from Spain that uses to play funk music. Awsome played as an artist',
-    procedence: 'Originated from Spain, Extremadura',
+    procedence: 'this is a rock band from Spain that uses to play funk music. Awsome played as an artist',
+    description: 'Originated from Spain, Extremadura',
+  },
+  {
+    name: 'Band6',
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/002/839/653/small/tribal-ethnic-tattoo-icon-illustration-design-logo-free-vector.jpg',
+    procedence: 'this is a rock band from Argentina that uses to play music in spanish. Awsome played as an artist',
+    description: 'Originated from Argentina, Rosario',
   },
 ];
 function deleteBands() {
@@ -85,6 +92,7 @@ function renderBands(index) {
     if (count < index) {
       const bandCard = document.createElement('div');
       bandCard.classList.add('bandKind');
+      bandCard.classList.add('myFont');
       const imagesContainer = document.createElement('div');
       imagesContainer.classList.add('bandImgCont');
       const imgCard = document.createElement('img');
