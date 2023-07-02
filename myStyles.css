@@ -123,12 +123,8 @@
 
   .menuTextContainer {
     background-color: white;
+    display: flex;
   }
-
-  /* .menuTextContainer a {
-    color: white;
-    font-family: 'Lato', sans-serif;;
-  } */
 
   .textLinks {
     display: flex;
@@ -195,17 +191,11 @@
 
   .bandsContainer {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
-    /* align-content: space-between; */
   }
 
   .bandKind {
     flex: 1 0 50%;
-  }
-
-  .menuTextContainer {
-    display: flex;
   }
 
   .textLinks a {
@@ -215,7 +205,6 @@
     padding-left: 3%;
     padding-right: 3%;
   }
-  
 }
 
 .header {
@@ -251,16 +240,30 @@
   padding-right: 1%;
 }
 
+.footerMain img {
+  height: 29%;
+}
+
+.bandImgCont img {
+  width: 100%;
+  height: 150px;
+  object-fit: scale-down;
+}
+
+.logoContainer img {
+  max-height: 45px;
+}
+
+.menuHamburger img {
+  max-height: 45px;
+}
+
 .myLinks a img {
   max-height: 25px;
 }
 
 #FaceBookIcon {
   max-height: 15px;
-}
-
-.menuHamburger img {
-  max-height: 45px;
 }
 
 .menuTextContainer {
@@ -270,11 +273,6 @@
   justify-content: flex-end;
   align-items: center;
 }
-
-.logoContainer img {
-  max-height:45px;
-}
-
 
 .textLinks {
   flex-direction: row;
@@ -292,7 +290,6 @@
   white-space: nowrap;
 }
 
-
 .mainContainer {
   position: relative;
   display: inline-block;
@@ -308,8 +305,6 @@
   -webkit-background-clip: text;
   font-family: 'Lato', sans-serif;
   font-weight: 800;
-  
-  
 }
 
 .mainContainer h2 {
@@ -375,8 +370,6 @@
   background-color: #272a31;
 }
 
-
-
 .cardKind h2 {
   color: #ec5242;
   font-family: 'Lato', sans-serif;
@@ -429,7 +422,6 @@
   margin-top: 3%;
 }
 
-
 .bandKind {
   display: flex;
 }
@@ -445,14 +437,6 @@
   margin-right: 5%;
 }
 
-.bandImgCont img {
-  width: 100%;
-  height: 150px;
-  object-fit: scale-down;
-}
-
-
-
 .bandKind h2 {
   color: #272a31;
   font-family: 'Lato', sans-serif;
@@ -464,9 +448,7 @@
 .bandKind h3 {
   color: #ec5242;
   font-size: 15px;
-  font-style: italic;
-  /* word-wrap: wrap; */
-  /* max-width: 60%; */
+  font-style: italic;\
 }
 
 .bandKind p {
@@ -485,7 +467,6 @@
   text-decoration: none;
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
-  
 }
 
 .down-arrow {
@@ -560,9 +541,7 @@
   letter-spacing: 0.01px;
 }
 
-.footerMain img {
-  height: 29%;
-}
+
 
 .footerSecond {
   /* margin-left: 5%; */
@@ -601,7 +580,6 @@
   right: 0;
   top: 0;
   z-index: 13;
-  margin-bottom: 3%;
   height: 10%;
   margin-left: 10%;
   margin-bottom: 15%;
