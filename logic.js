@@ -74,22 +74,22 @@ const bands = [
     procedence: 'Originated from Spain, Extremadura',
   },
 ];
-function deleteBands(){
+function deleteBands() {
   const cardContainer = document.querySelector('#bandsContainer');
   cardContainer.innerHTML = '';
 }
-function renderBands (index){
+function renderBands(index) {
   let count = 0;
   const cardContainer = document.querySelector('#bandsContainer');
   bands.forEach((band) => {
-    if (count < index){
+    if (count < index) {
       const bandCard = document.createElement('div');
       bandCard.classList.add('bandKind');
       const imagesContainer = document.createElement('div');
       imagesContainer.classList.add('bandImgCont');
       const imgCard = document.createElement('img');
       imgCard.src = band.image;
-      imagesContainer.appendChild(imgCard)
+      imagesContainer.appendChild(imgCard);
       bandCard.appendChild(imagesContainer);
       const bandContentContainer = document.createElement('div');
       bandContentContainer.classList.add('bandContentContainer');
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 document.addEventListener('resize', () => {
-  if (window.innerWidth <= 768){
+  if (window.innerWidth <= 768) {
     deleteBands();
     renderBands(2);
   } else {
