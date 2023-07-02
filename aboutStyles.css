@@ -280,6 +280,10 @@
   max-height: 45px;
 }
 
+.logoContainer img {
+  max-height: 45px;
+}
+
 .myLinks a img {
   max-height: 25px;
 }
@@ -290,10 +294,6 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-}
-
-.logoContainer img {
-  max-height: 45px;
 }
 
 .textLinks {
@@ -343,7 +343,6 @@
 .mainContainer h1 {
   position: relative;
   z-index: 1;
-  color: transparent;
   background-size: cover;
   -webkit-background-clip: text;
   font-family: 'Lato', sans-serif;
@@ -365,18 +364,18 @@
 }
 
 .mainContainer h3 {
-  font-family: 'Gothic A1', 'Lato', sans-serif;;
+  font-family: 'Gothic A1', 'Lato', sans-serif;
   padding-top: 2.5%;
   padding-bottom: 2%;
   font-size: 33px;
   font-weight: 800;
-  color: #272A31;
+  color: #272a31;
   letter-spacing: 0.5px;
 }
 
 .mainContainer h4 {
   font-family: 'Lato', sans-serif;
-  color: #272A31;
+  color: #272a31;
   padding-bottom: 1%;
   text-align: center;
   margin-left: auto;
@@ -512,7 +511,6 @@
 .otherConcertImgContainer {
   background-color: red;
   color: white;
-  /* display: inline-block; */
   position: relative;
 }
 
