@@ -81,7 +81,7 @@ The design behind the web pages was developed previously by Cindy Shin in Behanc
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://alexansaa.github.io/ConcertAdv/](#LiveDemo)
+- [https://alexansaa.github.io/ConcertAdv/](home.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
