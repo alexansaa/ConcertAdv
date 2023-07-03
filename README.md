@@ -175,5 +175,6 @@ The design behind the web pages was developed by [Cindy Shin](https://www.behanc
 ## 📝 License <a name="license"></a>
 
 This project is [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
