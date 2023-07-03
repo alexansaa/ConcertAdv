@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const kindCard = document.createElement('div');
     kindCard.classList.add('cardKind');
     kindCard.classList.add('myFont');
-    kindCard.classList.add('darkerColor');
+    // kindCard.classList.add('darkerColor');
     const imgCard = document.createElement('img');
     imgCard.src = kind.image;
     const kindName = document.createElement('h2');
@@ -184,13 +184,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const myIconClose = document.querySelector('#closeMenuImage');
   openBtn.addEventListener('click', () => {
     myLinksContainer.classList.add('openable');
+    myLinksContainer.classList.add('textLinksOpenable');
     myIcon.classList.add('disaperable');
     myIconClose.classList.add('apearable');
   });
   const closeBtn = document.querySelector('#closeHamburger');
   closeBtn.addEventListener('click', () => {
     myLinksContainer.classList.remove('openable');
+    myLinksContainer.classList.remove('textLinksOpenable');
     myIcon.classList.remove('disaperable');
+    myIconClose.classList.remove('apearable');
+    // myIconClose.classList.add('disaperable');
   });
   linksElements.forEach((e) => {
     e.addEventListener('click', () => {
