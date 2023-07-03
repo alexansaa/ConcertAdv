@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const kindCard = document.createElement('div');
     kindCard.classList.add('cardKind');
     kindCard.classList.add('myFont');
-    // kindCard.classList.add('darkerColor');
     const imgCard = document.createElement('img');
     imgCard.src = kind.image;
     const kindName = document.createElement('h2');
@@ -119,7 +118,6 @@ function renderBands(index) {
       const descBand = document.createElement('h3');
       descBand.textContent = band.description;
       const separator = document.createElement('hr');
-      // separator.classList.add('');
       const procedBand = document.createElement('p');
       procedBand.textContent = band.procedence;
       bandContentContainer.appendChild(nameBand);
@@ -205,7 +203,6 @@ document.addEventListener('DOMContentLoaded', () => {
     myLinksContainer.classList.remove('textLinksOpenable');
     myIcon.classList.remove('disaperable');
     myIconClose.classList.remove('apearable');
-    // myIconClose.classList.add('disaperable');
   });
   linksElements.forEach((e) => {
     e.addEventListener('click', () => {

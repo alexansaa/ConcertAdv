@@ -555,8 +555,8 @@
 .openable {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  justify-content: center;
+  align-items: center;
   position: fixed;
   left: 0;
   right: 0;
