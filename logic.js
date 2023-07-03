@@ -47,36 +47,42 @@ document.addEventListener('DOMContentLoaded', () => {
 const bands = [
   {
     name: 'Band1',
+    imgsqr: 'https://img.freepik.com/premium-vector/background-black-white-squares-chess-board-vector_622487-249.jpg?w=2000',
     image: 'https://static.vecteezy.com/system/resources/thumbnails/002/839/653/small/tribal-ethnic-tattoo-icon-illustration-design-logo-free-vector.jpg',
     procedence: 'this is a rock band from australia that uses to play funk music. Awsome played as an artists',
     description: 'Originated from Australia, Brisbain',
   },
   {
     name: 'Band2',
+    imgsqr: 'https://img.freepik.com/premium-vector/background-black-white-squares-chess-board-vector_622487-249.jpg?w=2000',
     image: 'https://png.pngtree.com/png-vector/20191018/ourlarge/pngtree-tribal-logo-vector-png-image_1824197.jpg',
     procedence: 'this is a rock band from australia that uses to play funk music. Awsome played as an artist',
     description: 'Originated from Australia, Sidney',
   },
   {
     name: 'Band3',
+    imgsqr: 'https://img.freepik.com/premium-vector/background-black-white-squares-chess-board-vector_622487-249.jpg?w=2000',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF_AM5SZSuSpanvtRO6EEnyxXXjQfAbZnXIw&usqp=CAU',
     procedence: 'this is a rock band from United Kindom that uses to play funk music. Awsome played as an artist',
     description: 'Originated from UK, Belfast',
   },
   {
     name: 'Band4',
+    imgsqr: 'https://img.freepik.com/premium-vector/background-black-white-squares-chess-board-vector_622487-249.jpg?w=2000',
     image: 'https://static.vecteezy.com/system/resources/thumbnails/007/412/788/small/tattoo-maori-design-ethnic-oriental-ornament-art-tribal-tattoo-sketch-logo-of-a-tattoo-maori-style-vector.jpg',
     procedence: 'this is a rock band from USA that uses to play funk music. Awsome played as an artist',
     description: 'Originated from USA, California',
   },
   {
     name: 'Band5',
+    imgsqr: 'https://img.freepik.com/premium-vector/background-black-white-squares-chess-board-vector_622487-249.jpg?w=2000',
     image: 'https://passion-stickers.com/964-large_default/yamaha-logo-tribal.jpg',
     procedence: 'this is a rock band from Spain that uses to play funk music. Awsome played as an artist',
     description: 'Originated from Spain, Extremadura',
   },
   {
     name: 'Band6',
+    imgsqr: 'https://img.freepik.com/premium-vector/background-black-white-squares-chess-board-vector_622487-249.jpg?w=2000',
     image: 'https://static.vecteezy.com/system/resources/thumbnails/002/839/653/small/tribal-ethnic-tattoo-icon-illustration-design-logo-free-vector.jpg',
     procedence: 'this is a rock band from Argentina that uses to play music in spanish. Awsome played as an artist',
     description: 'Originated from Argentina, Rosario',
@@ -98,8 +104,13 @@ function renderBands(index) {
       const imagesContainer = document.createElement('div');
       imagesContainer.classList.add('bandImgCont');
       const imgCard = document.createElement('img');
+      imgCard.classList.add('imgMain');
       imgCard.src = band.image;
+      const imgSqr = document.createElement('img');
+      imgSqr.classList.add('imgBack');
+      imgSqr.src = band.imgsqr;
       imagesContainer.appendChild(imgCard);
+      imagesContainer.appendChild(imgSqr);
       bandCard.appendChild(imagesContainer);
       const bandContentContainer = document.createElement('div');
       bandContentContainer.classList.add('bandContentContainer');

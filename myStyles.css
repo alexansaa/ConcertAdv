@@ -232,10 +232,34 @@
   height: 29%;
 }
 
+.bandImgCont {
+  margin-right: 5%;
+  position: relative;
+  width: 33%;
+  max-width: 130px;
+  max-height: 130px;
+}
+
 .bandImgCont img {
-  width: 100%;
-  height: 150px;
+  /* width: 150px;
+  height: 150px; */
   object-fit: scale-down;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+}
+
+.imgMain {
+  width: 90%;
+  right: 0;
+  bottom: 15px;
+  max-height: 100px;
+}
+
+.imgBack {
+  width: 50%;
+  z-index: -5;
+  filter: opacity(40%);
 }
 
 .logoContainer img {
@@ -359,6 +383,10 @@
   background-color: rgba(72, 70, 70, 0.65);
 }
 
+.cardKind:hover {
+  border: 2px solid #d3d3d3;
+}
+
 .cardKind h2 {
   color: #ec5242;
 }
@@ -399,6 +427,10 @@
   padding-bottom: 15px;
 }
 
+.bandContentContainer {
+  width: 66%;
+}
+
 .bandContentContainer hr {
   border-bottom: 1px solid #d3d3d3;
   width: 10%;
@@ -410,16 +442,13 @@
 
 .bandKind {
   display: flex;
+  margin-bottom: 5%;
 }
 
 .bandKind hr {
   border-bottom: 1px solid #d3d3d3;
   width: 10%;
   margin-left: 0;
-}
-
-.bandImgCont {
-  margin-right: 5%;
 }
 
 .bandKind h2 {
@@ -436,7 +465,7 @@
 }
 
 .bandKind p {
-  width: 80%;
+  width: 95%;
 }
 
 .bandBtn {

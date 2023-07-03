@@ -166,7 +166,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank every who continues supporting me.
+The design behind the web pages was developed by [Cindy Shin](https://www.behance.net/adagio07) and can be found on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,10 +175,5 @@ I would like to thank every who continues supporting me.
 ## 📝 License <a name="license"></a>
 
 This project is [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-**Attribution:**
-The design behind the web pages was developed by [Cindy Shin](https://www.behance.net/adagio07) and can be found on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
