@@ -20,10 +20,6 @@
     display: none;
   }
 
-  .left {
-    display: flex;
-  }
-
   .myLogo {
     display: none;
   }
@@ -83,8 +79,6 @@
   }
 
   .textLinks a {
-    text-decoration: none;
-    color: rgb(251, 251, 251);
     font-size: 45px;
     padding-left: 3%;
     padding-right: 3%;
@@ -107,10 +101,6 @@
     display: flex;
   }
 
-  .left {
-    display: none;
-  }
-
   .myLogo {
     display: flex;
   }
@@ -119,7 +109,7 @@
     display: none;
   }
 
-  .menuTextContainer {
+  .menuText {
     background-color: white;
     display: flex;
   }
@@ -197,9 +187,13 @@
   }
 
   .textLinks a {
-    text-decoration: none;
     padding-left: 3%;
     padding-right: 3%;
+    font-size: 20px;
+  }
+
+  .menuText img {
+    display: none;
   }
 }
 
@@ -260,7 +254,7 @@
   max-height: 15px;
 }
 
-.menuTextContainer {
+.menuText {
   position: relative;
   width: 100%;
   flex-direction: row;
@@ -271,6 +265,16 @@
 .textLinks {
   flex-direction: row;
   margin-left: 10%;
+}
+
+.textLinks a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.textLinksOpenable a {
+  color: rgb(251, 251, 251);
+  font-size: 65px;
 }
 
 .importantLink a {
@@ -349,6 +353,10 @@
   border-bottom: 1px solid #ec5242;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cardKind {
+  background-color: rgba(72, 70, 70, 0.65);
 }
 
 .cardKind h2 {
@@ -460,6 +468,10 @@
   color: #d3d3d3;
 }
 
+.footer1 {
+  background-color: #272a31;
+}
+
 .footer1 h2 {
   padding-top: 4%;
   padding-bottom: 2%;
@@ -556,6 +568,20 @@
   font-family: 'Lato', sans-serif;
 }
 
-.darkerColor {
+.darkerBackgroundColor {
   background-color: #272a31;
+}
+
+.left {
+  display: flex;
+}
+
+.menuTextContainer {
+  background-color: white;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
