@@ -1,0 +1,555 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .generalPadding {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .myLinks {
+    display: none;
+  }
+
+  .myLogo {
+    display: none;
+  }
+
+  .textLinks {
+    display: none;
+  }
+
+  .left {
+    display: flex;
+  }
+
+  .importantLink {
+    display: none;
+  }
+
+  .menuHamburgerContainer {
+    display: flex;
+    padding-top: 2%;
+  }
+
+  .mainContainer h1 {
+    line-height: 39px;
+  }
+
+  .mainContainer h2 {
+    color: #ec5242;
+    font-weight: 400;
+    font-size: 35px;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .mainContainer hr {
+    display: none;
+  }
+
+  .mainContainer h4 {
+    width: 70%;
+  }
+
+  .mainContainer p {
+    margin-top: 7%;
+  }
+
+  .footer2 {
+    background-color: white;
+  }
+
+  .navigator {
+    display: none;
+  }
+
+  .mainContainer {
+    margin-bottom: 7%;
+  }
+
+  .containerBorder h1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dissapear {
+    display: none;
+  }
+
+  .containerBorder p {
+    width: 60%;
+  }
+
+  .otherConcertsImgs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .otherConcertImgContainer {
+    width: 70%;
+    height: 55%;
+    max-height: 180px;
+    margin-bottom: 7%;
+  }
+
+  .creativeCommonsImg {
+    background-image: url('images/Icons/cc.png');
+    width: 35px;
+    height: 25px;
+    background-size: 100% 100%;
+    margin-right: 7px;
+  }
+
+  .footerSecond {
+    width: 100%;
+  }
+
+  .textLinks a {
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-size: 45px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media (min-width: 769px) {
+  .navigator {
+    display: flex;
+  }
+
+  .mainContainer h2 {
+    display: none;
+  }
+
+  .generalPadding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .menuTextContainer {
+    background-color: white;
+    display: flex;
+  }
+
+  .myLinks {
+    display: flex;
+  }
+
+  .myLogo {
+    display: flex;
+  }
+
+  .textLinks {
+    display: flex;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .importantLink {
+    display: flex;
+  }
+
+  .menuHamburgerContainer {
+    display: none;
+  }
+
+  .mainContainer {
+    margin-bottom: 7%;
+  }
+
+  .mainContainer h1 {
+    line-height: 45px;
+  }
+
+  .mainContainer p {
+    width: 89%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer1 {
+    display: none;
+  }
+
+  .footer2 {
+    background-color: #272a31;
+    color: white;
+  }
+
+  .creativeCommonsImg {
+    background-image: url('images/About/ccWhite.png');
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    background-size: 100% 100%;
+    margin-right: 7px;
+  }
+
+  .mainContainer h4 {
+    width: 90%;
+  }
+
+  .containerBorder p {
+    width: 85%;
+  }
+
+  .otherConcertsImgs {
+    flex-direction: row;
+  }
+
+  .otherConcertImgContainer {
+    width: 45%;
+    height: 45%;
+    max-height: 215px;
+  }
+
+  .footerSecond {
+    width: 190%;
+  }
+
+  .textLinks a {
+    text-decoration: none;
+    color: #272a31;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+.header {
+  display: block;
+}
+
+.myLinks {
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-height: 35px;
+}
+
+.myLinks a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.otherConcertImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  max-height: inherit;
+}
+
+.navigator img {
+  width: 2%;
+}
+
+.contentContainer img {
+  margin-top: 5%;
+  border: 2px solid rgb(231, 230, 230);
+}
+
+.footerMain img {
+  height: 29%;
+}
+
+.menuHamburger img {
+  max-height: 45px;
+}
+
+.logoContainer img {
+  max-height: 45px;
+}
+
+.myLinks a img {
+  max-height: 25px;
+}
+
+.menuTextContainer {
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.textLinks {
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.importantLink a {
+  text-decoration: none;
+  border: solid;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #ec5242;
+  white-space: nowrap;
+}
+
+.mainBackground {
+  background-image: url("https://img.freepik.com/premium-vector/random-vinyl-records-pattern-music-illustration-creative-luxury-cover_510351-12718.jpg?w=2000");
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(80%) opacity(8%);
+  z-index: -1;
+}
+
+.mainContainer {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.mainContainer hr {
+  border-bottom: 1px solid #ec5242;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.mainContainer h1 {
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-weight: 800;
+  color: #ec5242;
+  font-size: 300%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.mainContainer p {
+  background-color: rgb(245, 243, 243);
+  border: 3px solid white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  line-height: 27px;
+  margin-bottom: 5%;
+}
+
+.mainContainer h3 {
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+  font-size: 33px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.mainContainer h4 {
+  padding-bottom: 1%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainEmailContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainEmailContact h5 {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.mainEmailContact h6 {
+  font-size: 15px;
+  padding-left: 1%;
+}
+
+.footer1 h2 {
+  padding-top: 4%;
+  padding-bottom: 2%;
+  font-size: 30px;
+  text-align: center;
+  color: #d3d3d3;
+  font-weight: 400;
+}
+
+.footer1 hr {
+  border-bottom: 1px solid #ec5242;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  margin-bottom: 1%;
+}
+
+.partners {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  color: #d3d3d3;
+}
+
+.partners span {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.footer2 {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footerMain {
+  font-size: 25px;
+  font-weight: 800;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  letter-spacing: 0.01px;
+}
+
+.footerSecond p {
+  padding-bottom: 3%;
+}
+
+.containerBorder {
+  border: 2px solid #d3d3d3;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Lato', sans-serif;
+}
+
+.containerBorder p {
+  color: rgb(110, 109, 109);
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerBorder hr {
+  border-bottom: 1px solid #ec5242;
+  width: 5%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.contentContainer {
+  background-color: white;
+}
+
+.navigator {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+.navigator h6 {
+  color: #ec5242;
+  font-size: medium;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.otherConcertsImgs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+
+.otherConcertImgContainer {
+  background-color: red;
+  color: white;
+  position: relative;
+}
+
+.otherConcertImgContainer p {
+  color: white;
+}
+
+.imgText {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.imgText h3 {
+  font-size: 35px;
+  margin-bottom: 4%;
+}
+
+.imgText p {
+  font-size: 18px;
+}
+
+.openable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+.disaperable {
+  display: none;
+  z-index: -10;
+}
+
+.apearable {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 13;
+  height: 10%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+}
+
+#about {
+  color: #ec5242;
+}
+
+.myFont {
+  font-family: 'Lato', sans-serif;
+}
+
+.darkerBackgroundColor {
+  background-color: #272a31;
+}

@@ -1,0 +1,612 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .generalPadding {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .mainContainer h1 {
+    font-size: 250%;
+    line-height: 39px;
+    padding-bottom: 5%;
+  }
+
+  .myLinks {
+    display: none;
+  }
+
+  .myLogo {
+    display: none;
+  }
+
+  .menuHamburgerContainer {
+    display: flex;
+    padding-top: 2%;
+  }
+
+  .textLinks {
+    display: none;
+  }
+
+  .importantLink {
+    display: none;
+  }
+
+  .main {
+    overflow: hidden;
+  }
+
+  .cardKind {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .cardKind p {
+    max-width: 50%;
+  }
+
+  .cardKind h2 {
+    font-size: 20px;
+    width: 25%;
+  }
+
+  .cardKind img {
+    max-width: 10%;
+  }
+
+  .kinds hr {
+    width: 10%;
+    margin-bottom: 8%;
+  }
+
+  .kindsLkn {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .textLinks a {
+    font-size: 45px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media (min-width: 769px) {
+  .generalPadding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .mainContainer h1 {
+    font-size: 300%;
+    line-height: 45px;
+    padding-bottom: 2%;
+  }
+
+  .myLinks {
+    display: flex;
+  }
+
+  .myLogo {
+    display: flex;
+  }
+
+  .menuHamburgerContainer {
+    display: none;
+  }
+
+  .menuText {
+    background-color: white;
+    display: flex;
+  }
+
+  .textLinks {
+    display: flex;
+  }
+
+  .importantLink {
+    display: flex;
+  }
+
+  .mainContainer p {
+    width: 70%;
+    margin-bottom: 3%;
+  }
+
+  .cardKind {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    width: 25%;
+  }
+
+  .cardKind h2 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .kindsContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cardKind img {
+    max-width: 35%;
+    align-self: center;
+    margin-bottom: 6%;
+  }
+
+  .cardKind p {
+    margin-top: 8%;
+    margin-bottom: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+  .kinds hr {
+    width: 5%;
+    margin-bottom: 5%;
+  }
+
+  .kindsBtn {
+    display: none;
+  }
+
+  .bandBtn {
+    display: none;
+  }
+
+  .bandsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bandKind {
+    flex: 1 0 50%;
+  }
+
+  .textLinks a {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 20px;
+  }
+
+  .menuText img {
+    display: none;
+  }
+}
+
+.header {
+  display: block;
+}
+
+.mainBackground {
+  background-image: url("https://img.freepik.com/premium-vector/random-vinyl-records-pattern-music-illustration-creative-luxury-cover_510351-12718.jpg?w=2000");
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(80%) opacity(8%);
+  z-index: -1;
+}
+
+.myLinks {
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-height: 35px;
+}
+
+.myLinks a {
+  text-decoration: none;
+  color: white;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.footerMain img {
+  height: 29%;
+}
+
+.bandImgCont {
+  margin-right: 5%;
+  position: relative;
+  width: 33%;
+  max-width: 130px;
+  max-height: 130px;
+}
+
+.bandImgCont img {
+  object-fit: scale-down;
+  position: absolute;
+}
+
+.imgMain {
+  width: 90%;
+  right: 0;
+  bottom: 15px;
+  max-height: 100px;
+}
+
+.imgBack {
+  width: 50%;
+  z-index: -5;
+  filter: opacity(40%);
+}
+
+.logoContainer img {
+  max-height: 45px;
+}
+
+.menuHamburger img {
+  max-height: 45px;
+}
+
+.myLinks a img {
+  max-height: 25px;
+}
+
+#FaceBookIcon {
+  max-height: 15px;
+}
+
+.menuText {
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.textLinks {
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.textLinks a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.textLinksOpenable a {
+  color: rgb(251, 251, 251);
+  font-size: 65px;
+}
+
+.importantLink a {
+  text-decoration: none;
+  border: solid;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #ec5242;
+  white-space: nowrap;
+}
+
+.mainContainer {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.mainContainer h1 {
+  position: relative;
+  z-index: 1;
+  color: transparent;
+  background-image: url("https://previews.123rf.com/images/vectora/vectora1704/vectora170400470/75321963-abstract-art-to-use-as-geometric-patterns-backgrounds-textures-random-irregular-shapes.jpg");
+  background-size: cover;
+  -webkit-background-clip: text;
+  font-weight: 800;
+}
+
+.mainContainer h2 {
+  color: #ec5242;
+  font-weight: 400;
+  font-size: 35px;
+  padding-top: 7%;
+  padding-bottom: 1.5%;
+}
+
+.mainContainer p {
+  background-color: rgb(245, 243, 243);
+  border: 3px solid white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  line-height: 27px;
+}
+
+.mainContainer h3 {
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+  font-size: 33px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.mainContainer h4 {
+  color: #d3d3d3;
+  padding-bottom: 15%;
+}
+
+.kinds {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-dark.png");
+  z-index: 1;
+  color: white;
+  padding-top: 9%;
+}
+
+.kinds h1 {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.kinds hr {
+  border-bottom: 1px solid #ec5242;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardKind {
+  background-color: rgba(72, 70, 70, 0.65);
+}
+
+.cardKind:hover {
+  border: 2px solid #d3d3d3;
+}
+
+.cardKind h2 {
+  color: #ec5242;
+}
+
+.kindsBtn {
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 12%;
+}
+
+.kindsBtn a {
+  color: #d3d3d3;
+  background-color: #ec5242;
+  text-decoration: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bands {
+  z-index: 1;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+.bands hr {
+  border-bottom: 1px solid #ec5242;
+  width: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4%;
+}
+
+.bands h1 {
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.bandContentContainer {
+  width: 66%;
+}
+
+.bandContentContainer hr {
+  border-bottom: 1px solid #d3d3d3;
+  width: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+
+.bandKind {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.bandKind hr {
+  border-bottom: 1px solid #d3d3d3;
+  width: 10%;
+  margin-left: 0;
+}
+
+.bandKind h2 {
+  font-size: 27px;
+  width: 25%;
+  padding-bottom: 1.5%;
+}
+
+.bandKind h3 {
+  color: #ec5242;
+  font-size: 15px;
+  font-style: italic;
+  width: 70%;
+}
+
+.bandKind p {
+  width: 95%;
+}
+
+.bandBtn {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 7%;
+}
+
+.bandBtn a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.down-arrow {
+  color: red;
+  font-weight: 800;
+}
+
+.kindsLkn {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 8%;
+}
+
+.kindsLkn a {
+  color: #d3d3d3;
+}
+
+.footer1 {
+  background-color: #272a31;
+}
+
+.footer1 h2 {
+  padding-top: 4%;
+  padding-bottom: 2%;
+  font-size: 30px;
+  text-align: center;
+  color: #d3d3d3;
+  font-weight: 400;
+}
+
+.footer1 hr {
+  border-bottom: 1px solid #ec5242;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  margin-bottom: 1%;
+}
+
+.partners {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  color: #d3d3d3;
+}
+
+.partners span {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.footer2 {
+  background-color: white;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footerMain {
+  font-size: 25px;
+  font-weight: 800;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  letter-spacing: 0.01px;
+}
+
+.footerSecond {
+  width: 190%;
+}
+
+.footerSecond p {
+  padding-bottom: 3%;
+}
+
+.openable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+.disaperable {
+  display: none;
+  z-index: -10;
+}
+
+.apearable {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 13;
+  height: 10%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+}
+
+#home {
+  color: #ec5242;
+}
+
+.myFont {
+  font-family: 'Lato', sans-serif;
+}
+
+.darkerBackgroundColor {
+  background-color: #272a31;
+}
+
+.left {
+  display: flex;
+}
+
+.menuTextContainer {
+  background-color: white;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
